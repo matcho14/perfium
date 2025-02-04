@@ -1,0 +1,58 @@
+
+
+
+/* Styling for the carousel */
+.carousel {
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.product-card {
+    margin: 10px;
+    flex: 0 0 auto; /* Prevent cards from shrinking */
+    width: 200px; /* Set a fixed width for each card */
+}
+
+
+
+
+.carousel-item {
+    display: flex;
+    overflow: hidden;
+}
+.product-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.product-card {
+    margin: 10px;
+}
+.controls button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+.prev-button {
+    left: 10px;
+}
+.next-button {
+    right: 10px;
+}
+.product-card{
+    width: 300px;
+}
+.product-card img{
+    width: 100%;
+    
+}
