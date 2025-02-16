@@ -54,5 +54,20 @@
 }
 .product-card img{
     width: 100%;
-    
+
 }
+
+
+@media (max-width:450px){
+    .rounded p{
+        font-size: 10px
+    }
+
+    .rounded .d-flex{
+        flex-direction: column;
+    }
+    .rounded .d-flex a{
+        font-size: 10px
+    }
+
+};
